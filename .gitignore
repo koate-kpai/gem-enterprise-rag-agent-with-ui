@@ -1,6 +1,21 @@
-﻿venv/
+﻿# Environment & secrets
 .env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Chroma vector database
+chroma_langchain_db/
+
+# Python cache
 __pycache__/
 *.pyc
-my_local_db/
-chroma_langchain_db/
+*.pyo
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
